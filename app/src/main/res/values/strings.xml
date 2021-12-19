@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Book Listing</string>
+    <string name="enter_book_name">Type book name here</string>
+    <string name="no_book">No books found</string>
+</resources>
