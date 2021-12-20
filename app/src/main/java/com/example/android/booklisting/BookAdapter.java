@@ -39,10 +39,6 @@ public class BookAdapter extends ArrayAdapter<Book>
 
         ImageView thumbnailView = listItemView.findViewById(R.id.thumbnail);
         Glide.with(mContext).load(currentBook.getThumbnail()).placeholder(R.drawable.ic_book).into(thumbnailView);
-//        Picasso picasso = Picasso.with(getContext());
-//        picasso.setLoggingEnabled(true);
-//        picasso.load(currentBook.getThumbnail()).into(thumbnailView);
-//        Log.e(mContext.toString(),currentBook.getThumbnail());
         TextView titleView = listItemView.findViewById(R.id.title);
         titleView.setText(currentBook.getTitle());
 
